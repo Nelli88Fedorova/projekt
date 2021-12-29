@@ -1,0 +1,75 @@
+header{
+    background: url('/video.mp5'),rgba(0, 0, 0, 0.85);
+    background-blend-mode: color;
+color: aliceblue;
+}
+#videofon{ 
+position: relative;
+overflow: hidden;
+}
+video{
+object-fit: cover; 
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+z-index: -9999;
+}
+#cup{ font-size: x-small;}
+.prev,
+.next {
+cursor: pointer;
+height: 60px;
+width: 60px;
+}
+.prev{
+position: absolute;
+top: 30%;
+right:-10%;
+}
+.prev{
+position: absolute;
+top: 30%;
+right:-15%;
+}
+#darkfon
+{
+background-color: rgb(0, 0, 0);
+}
+#dropdown1 {
+position: relative;
+display: inline-block;
+/* CSS-трансформация, все свойства будут плавно меняться одну секунду */
+transition: all 1s ease;
+}
+nav 
+.on
+{
+display:block;
+position: absolute;
+background-color: rgb(250, 92, 0);
+color: rgb(255, 255, 255);
+height: auto;
+width: auto;
+z-index: 200;
+transition: all 2s ease;
+}
+.onF{
+    display:block;
+    background-color: rgb(255, 255, 255);
+  color: black;
+  transition: all 1s ease;
+  border:darkorange;
+}
+.off
+{
+    display: none;
+}
+
+.focuss
+{
+background-color: rgb(253, 59, 0);
+transition: all 0.5s ease;
+width: auto;
+}
