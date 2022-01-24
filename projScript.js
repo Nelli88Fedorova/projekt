@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', function (event) 
+{
 const hash = window.location.hash;
 // dropMenu
 
@@ -136,8 +138,6 @@ async function SendForm()
 			
 };
 
-
-
 //аккордеон
 let idAakordText=[
 '#ak727',
@@ -221,4 +221,4 @@ $("#countSlid").slick({
 			loop:true,
 		});
 
-
+});
