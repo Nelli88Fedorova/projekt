@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
+header{
+    background: url('/video.mp5'),rgba(0, 0, 0, 0.85);
+    background-blend-mode: color;
+color: aliceblue;
+margin-bottom:50px;
+}
+#videofon{ 
+position: relative;
+overflow: hidden;
+}
+video{
+object-fit: cover; 
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+z-index: -9999;
+}
+
+#cup{ font-size: x-small;}
+
+.rightAr,
+.leftAr{
+height: 40px;
+width: 40px;
+}
+.bottomBorder:hover{border-bottom: 3px solid rgb(245, 117, 12); }
+
+#orangeBord
+{ border-left: 3px solid rgb(245, 117, 12); font-size:large;}
+
+.number{color: rgb(80, 80, 80); font-size:x-large;}/*слайдер цифыры 1/6*/
+
+#dropdown1 {
+position: relative;
+display: inline-block;
+/* CSS-трансформация, все свойства будут плавно меняться одну секунду */
+transition: all 1s ease;
+}
+nav 
+.on
+{
+display:block;
+position: absolute;
+background-color: rgb(250, 92, 0);
+color: rgb(255, 255, 255);
+height: auto;
+width: auto;
+z-index: 200;
+transition: all 2s ease;
+}
+.onAkkord{
+background-color: rgb(255, 255, 255);
+  color: rgb(1, 0, 5);
+  width: auto;
+  border: 2px solid rgb(245, 117, 12);
+ /*transition: all 1s ease;*/ 
+}
+.no{
+    width: auto;
+}
+.wizible
+{
+    display:block;
+    width: auto;
+    transition: all 1s ease; 
+}
+.off
+{
+    display: none;
+}
+.focuss
+{
+width: auto;
+background-color: rgb(253, 59, 0);
+transition: all 0.5s ease;
+}
+
+/*Тариф*/
+.increase {
+    transition: 1s; /* Время эффекта */
+   }
+   /*Тариф увеличение*/
+   .increase:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+ /*Фон под 2 блока с Laptop*/
+ .Fon-2-block {
+    background: url(druplicon.svg) no-repeat right top, linear-gradient(-120deg, #040613, #1E1F2B);
+}
+footer{border: rgb(80, 80, 80);}
+.footer-block {
+    padding-top: 120px;
+    padding-bottom: 50px;
+	/* padding-bottom: 10px; */
+    background: url('D-flying.svg') no-repeat top center, url('D-footer.svg') no-repeat bottom right, linear-gradient(60deg, #040613, #1E1F2B);
+    color: #fff;
+    /* font-family: Montserrat, Arial, Helvetica, sans-serif; */
+}
+.form-back{  
+    background: rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: seashell;
+}
+.form-back1{  
+    background: rgba(32, 32, 32, 0.001);
+    color: seashell;
+}
+#send, #send0, .orangeButt{
+    border-radius: 5px;
+    border: 4px solid rgb(253, 59, 0);
+    background: rgba(0, 0, 0, 0.041);
+    padding-top: 8px;
+    color:rgb(0, 0, 0);
+}
+#send{color:rgb(255, 255, 255); }
+
+#send0{color:rgb(255, 255, 255)}
+#send:hover, #send0:hover, .orangeButt:hover{ 
+    background: rgb(253, 59, 0);
+    transition: all 0.5s ease;
+    color:rgb(255, 255, 255);
+}
+
+@media (max-width: 768px)
+    {
+    #content
+    {  flex-basis:490px; }  
+    }
+    @media (min-width: 770px)
+    {
+        #content
+        { width:380px; height: 390px;}
+    }
+    #content
+    {display: flex;
+    flex-direction: column;
+    flex:1;
+    border-radius: 5px;
+    margin:40px auto 0px auto;
+    padding:20px;
+    width:20%;
+    height: 52%;
+    margin-bottom: 50px;
+    background-color: #000002;
+    box-shadow: 0px 0px 30px rgb(158, 158, 158);
+    text-align: center;
+    }
+    #popUp
+    {
+       width:100%;
+       height: 100%;
+       background-color: rgba(0,0,0,0.5);
+       overflow:hidden;
+       position:fixed;
+       top:0px;
+       z-index: 20;
+    }
+    .xxx{ 
+        height: 25px;
+        width: 25px;
+        color:seashell;
+        border-radius: 10px;
+        background-color: rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 5px rgb(158, 158, 158);
+        margin-bottom: 10px;
+    }
