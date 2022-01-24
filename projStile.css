@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
 header{
     background: url('/video.mp5'),rgba(0, 0, 0, 0.85);
     background-blend-mode: color;
@@ -87,7 +89,7 @@ transition: all 0.5s ease;
    }
  /*Фон под 2 блока с Laptop*/
  .Fon-2-block {
-    background: url('uplicon.svg') no-repeat right top, linear-gradient(-120deg, #040613, #1E1F2B);
+    background: url(druplicon.svg) no-repeat right top, linear-gradient(-120deg, #040613, #1E1F2B);
 }
 footer{border: rgb(80, 80, 80);}
 .footer-block {
